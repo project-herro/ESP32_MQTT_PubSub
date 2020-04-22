@@ -24,7 +24,7 @@ void connect() {
 
   // shiftr "key", "Secret"
   Serial.print("\nconnecting...");
-  while (!client.connect("ESP32_pub", "6ca7a569", "91d9b265f7ac5cab")) {
+  while (!client.connect("ESP32_pub", "KEY", "SECRET")) {
     Serial.print(".");
     delay(1000);
   }
